@@ -1,0 +1,16 @@
+[
+	{
+		"employee": {
+			"Department": "Dept1",
+			"First Name": "FirstName1",
+			"Last Name": "LastName1"
+		}
+	},
+	{
+		"employee": {
+			"Department": "Dept2",
+			"First Name": "FirstName2",
+			"Last Name": "LastName2"
+		}
+	}
+]

@@ -1,0 +1,55 @@
+person:
+   firstname: "sheetal"
+   lastname: 'singh'
+   rating: !!str 9  #treated as string 9
+   marks: !!float 8 # treated as 8.0
+   birthday: 1985-01-23 07:00:00
+   male: true
+   favnum: 1e+2
+   age: !!int 33
+   
+      
+   # Declaring list method1
+   
+   hobbies:
+     - treakking
+     - swimming
+     - running
+     
+   # Declaring list method2
+   
+   movies: ["EndGame","3 Idiots","Prahar"]
+   
+    # Declaring Hash Map
+   friends: 
+   
+    # Declaring HashMap method1
+    
+    
+    
+    - 
+      age: !!int 33
+      name: "Alpha"
+      
+    # Declaring HashMap method2  
+    - name: "Charli"
+      age: !!int 35  
+    
+    # Declaring HashMap method3  
+    - {name: "Bravo", age: !!int 65}  
+   
+   # Summary will be treated as a single line due to >
+   summary: >
+      till now I have completed 5 marathons
+      wish to complete full marathon someday
+      next is goa marathon
+      above text will be treate as a single line because of arrow
+   
+   # The below line will be printed as is due to !
+   signature: |
+     Prashanth 
+     Helping others
+     email - somethings@everything.com
+     preservve signature |
+     note: perserve signature as is (because of |)
+  

@@ -1,0 +1,62 @@
+# This is a comment
+
+somename: value # this is a comment
+
+anothername: '#value' # this stores #value
+
+#spring.datasource.initial-size=1
+#spring.datasource.max-active=10
+#spring.datasource.min-idle=1
+#spring.datasource.max-idle=5
+
+spring:
+   datasource:
+      initial-size: 1
+      max-active: 10
+      min-idle: 1
+      max-idle: 5
+      
+
+#List
+mylist:
+    - 100
+    - 200
+    
+mylist:
+- 'item 1'
+- 'item 2'
+
+
+#List within a list
+twobytwotable:
+  - - 'a1'
+    - 'a2'
+  - - 'b1'
+    - 'b2'
+      
+listinalist:
+   -   -'a1'
+       -'a2'
+   -   -'b1'
+       -'b2'
+               
+somelist:
+-value1: one
+-value2: two
+
+somelist2:
+   -value1: one
+   -value2: two
+   
+#List of Maps
+anotherMap:
+   -keyvalue: 1
+    value:'one'
+   -keyvalue: 2
+    value:'two'
+
+anotherMap:
+   key1: 'value1'
+   key2: 'value2'
+    
+    

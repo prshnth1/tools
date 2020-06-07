@@ -1,0 +1,10 @@
+employee1:
+  name: &varName Albert
+  age: 30
+  hobbies: ["painting", "art", "music"]
+  official: *varName
+employee2:
+  name: "Bravo"
+  age: 30
+  hobbies: ["football", "running", "swimming"]
+  official: *varName

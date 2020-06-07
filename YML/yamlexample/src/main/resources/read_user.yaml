@@ -1,0 +1,9 @@
+name: Test User
+address:
+  line1: My Address Line1
+  line2: My Address Line2
+  city: Washington D.C
+  zip: 200200
+roles:
+  - User
+  - Editor
